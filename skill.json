@@ -1,0 +1,10 @@
+{
+  "name": "genpark-url-to-ad",
+  "version": "1.0.0",
+  "description": "GenPark URL-To-Ad - Semantic OpenGraph signal parser, 5-angle conversion ad hook composer, and conjugate Beta-Binomial Bayesian CTR predictor with zero dependencies.",
+  "tools": [
+    "extract_semantic_ad_signals",
+    "compose_multi_angle_ad_hooks",
+    "predict_bayesian_ctr_score"
+  ]
+}
