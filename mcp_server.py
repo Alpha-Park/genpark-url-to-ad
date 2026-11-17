@@ -50,8 +50,7 @@ def predict_bayesian_ctr_score(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing URL to Ad:")
-    print(predict_bayesian_ctr_score(5000, 120, 0.9))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
